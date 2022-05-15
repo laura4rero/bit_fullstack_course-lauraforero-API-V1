@@ -1,6 +1,5 @@
 # bit_fullstack_course-lauraforero-API-V1
-# Titulo
-Proyecto API Restful de Iniciar sesion
+# Proyecto API Restful de Iniciar sesion
 ## Descripción
 Este proyecto consta de dos partes, el backend y el frontend en su respectivo directorio se encuentra el código fuente del proyecto.
 
