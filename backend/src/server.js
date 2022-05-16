@@ -6,6 +6,8 @@ const ToDorouter = require ('./routes/ToDo');
 const server = express();
 const port = 4000;
 
+//server.use(express.urlencoded({extended:true}));
+server.use(express.json());
 server.use(ToDorouter);
 
 dotenv.config();
