@@ -6,24 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Restaurantes del norte</title>
     <link rel="stylesheet" href="/Frontend/css/bootstrap.min.css">
+    <script type="text/javascript" src="/Frontend/js/index.js"></script>
     <script type="text/javascript" src="/Frontend/js/bootstrap.min.js"></script>
     <script src="/Frontend/js/jquery.js"></script>
 </head>
 <body>
-    <h1>que sueño mk</h1>
-    <div class="row g-3 align-items-center">
-        <div class="col-auto">
-          <label for="inputPassword6" class="col-form-label">Password</label>
-        </div>
-        <div class="col-auto">
-          <input type="password" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline">
-        </div>
-        <div class="col-auto">
-          <span id="passwordHelpInline" class="form-text">
-            Must be 8-20 characters long.
-          </span>
+    <nav class="navbar navbar-expand-lg bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Los mejores restaurantes de Bogota</a>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Buscar</button>
+          </form>
         </div>
       </div>
-    
+    </nav>
+    <div class="container py-5">
+      <div class="row" id="principal">
+
+      </div>
+    </div>
 </body>
 </html>
