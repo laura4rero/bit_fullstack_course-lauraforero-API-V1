@@ -3,8 +3,6 @@ window.onload=()=>
     console.log("hola");
     $.get("http://localhost:4000/apiv1ToDo/inicial", function(data, status)
     {
-        console.log("Data: " + data + "\nStatus: " + status);
-        console.log(data.success);
         if(data.success.length > 0)
         {
             let tarjetas = '';
